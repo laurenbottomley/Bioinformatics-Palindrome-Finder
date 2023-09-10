@@ -1,4 +1,4 @@
-import argparse
+from app import argparse
 
 def find_max_genetic_palindrome(my_string, l):
     max_start = 0
