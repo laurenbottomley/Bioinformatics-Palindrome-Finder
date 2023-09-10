@@ -16,4 +16,6 @@ Examples:
 AGTACT -- Palindrome (each nucleotide has its compliment)
 AACTGC -- Not a palindrome (compliments are not present)
 
+Genetic palindromes can tell us a lot about a particular DNA sequence, such as recognition sites for enzymes, disease associations, structural stability, evolutionary significance, etc.
 
+# Installation
