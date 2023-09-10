@@ -1,3 +1,5 @@
+import argparse
+
 def find_max_genetic_palindrome(my_string, l):
     max_start = 0
     max_end = l
@@ -38,9 +40,10 @@ def find_max_genetic_palindrome(my_string, l):
 
 
 def main():
-    with open("ecoli.fasta", "r", encoding="utf-8") as file:
+    with open(args.input, "r", encoding="utf-8") as file:
         my_string = file.read()
-    l = 20
+        l = args.center
+
 
     max_palindrome, max_pal_length, center = find_max_genetic_palindrome(my_string, l)
 
