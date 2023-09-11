@@ -20,3 +20,17 @@ AACTGC -- Not a palindrome (compliments are not present)
 Genetic palindromes can tell us a lot about a particular DNA sequence, such as recognition sites for enzymes, disease associations, structural stability, evolutionary significance, etc.
 
 # Installation
+Before getting started, make sure you have the following prerequisites installed:
+- Python 3.x: [Download Python](https://www.python.org/downloads/)
+
+1. Install the genetic-palindrome-finder package using pip:
+
+   ```bash
+   pip install genetic-palindrome-finder```
+
+# Usage
+
+To find genetic palindromes in a DNA sequence, you can use the `genetic_palindrome_finder` command followed by the necessary options. For example:
+
+```bash
+python palindromefinder.py --input ecoli.fasta --center 20```
