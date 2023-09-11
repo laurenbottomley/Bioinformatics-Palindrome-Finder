@@ -12,8 +12,8 @@ FOR THOSE UNFAMILAR WITH PALINDROMES IN GENETICS ---
 
 ## Examples:
 
-AGTACT -- Palindrome (each nucleotide has its compliment)
-AACTGC -- Not a palindrome (compliments are not present)
+- AGTACT -- Palindrome (each nucleotide has its compliment)
+- AACTGC -- Not a palindrome (compliments are not present)
 
 # Installation
 1. Before getting started, make sure you have the following prerequisites installed:
