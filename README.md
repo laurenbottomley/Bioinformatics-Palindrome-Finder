@@ -21,7 +21,7 @@ FOR THOSE UNFAMILAR WITH PALINDROMES IN GENETICS ---
 
 2. Install the genetic-palindrome-finder package using pip:
    ```bash
-   pip install genetic-palindrome-finder
+   pip install genetic_palindrome_finder
 
 # Usage
 
