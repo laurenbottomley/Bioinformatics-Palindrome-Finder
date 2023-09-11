@@ -1,4 +1,4 @@
-from app import argparse
+import argparse
 
 def find_max_genetic_palindrome(my_string, l):
     max_start = 0
@@ -40,10 +40,14 @@ def find_max_genetic_palindrome(my_string, l):
 
 
 def main():
+    parser = argparse.ArgumentParser(description='Find the largest genetic palindrome in a DNA sequence.')
+    parser.add_argument('--input', required=True, help='Path to the input FASTA file.')
+    parser.add_argument('--center', type=int, required=True, help='Length of the center for palindrome detection.')
+    args = parser.parse_args()
+
     with open(args.input, "r", encoding="utf-8") as file:
         my_string = file.read()
-        l = args.center
-
+    l = args.center
 
     max_palindrome, max_pal_length, center = find_max_genetic_palindrome(my_string, l)
 
