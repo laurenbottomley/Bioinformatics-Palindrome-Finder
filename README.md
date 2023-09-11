@@ -3,6 +3,7 @@
 A python program that reads a FASTA file and returns the largest palindrome sequence within the DNA strand.
 
 Note: The FASTA file in the project folder is the DNA sequence for E. Coli.
+Read more about the palindrome in E. Coli here --> https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4245961/
 
 FOR THOSE UNFAMILAR WITH PALINDROMES IN GENETICS ---
 
