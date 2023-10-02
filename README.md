@@ -18,6 +18,8 @@ FOR THOSE UNFAMILAR WITH PALINDROMES IN GENETICS ---
 # Installation
 1. Before getting started, make sure you have the following prerequisites installed:
 - Python 3.x: [Download Python](https://www.python.org/downloads/)
+  ```bash
+  pip install -r requirements.txt
 
 2. Install the genetic-palindrome-finder package using pip:
    ```bash
