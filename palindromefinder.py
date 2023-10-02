@@ -1,4 +1,5 @@
 import argparse
+import os
 
 def find_max_genetic_palindrome(my_string, l):
     max_start = 0
@@ -44,8 +45,15 @@ def main():
     parser.add_argument('--input', required=True, help='Path to the input FASTA file.')
     parser.add_argument('--center', type=int, required=True, help='Length of the center for palindrome detection.')
     args = parser.parse_args()
+    
+    input_file = args.input
 
-    with open(args.input, "r", encoding="utf-8") as file:
+    # Check if the input file exists
+    if not os.path.exists(input_file):
+        print(f"Error: The file '{input_file}' does not exist.")
+        return
+
+    with open(input_file, "r", encoding="utf-8") as file:
         my_string = file.read()
     l = args.center
 
