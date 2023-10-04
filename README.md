@@ -18,9 +18,6 @@ FOR THOSE UNFAMILAR WITH PALINDROMES IN GENETICS ---
 # Installation
 1. Before getting started, make sure you have the following prerequisites installed:
 - Python 3.x: [Download Python](https://www.python.org/downloads/)
-2. Install the repo:
-    ```bash
-    pip install git+https://github.com/laurenbottomley/Bioinformatics-Palindrome-Finder.git
 - Program Dependencies:
   ```bash
   pip install -r requirements.txt
